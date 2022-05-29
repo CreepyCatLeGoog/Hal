@@ -1,0 +1,10 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "hal:lib"
+
+    - path: "./app"
+      component: "hal:exe:hal-exe"
+
+    - path: "./test"
+      component: "hal:test:hal-test"
